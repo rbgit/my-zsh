@@ -1,0 +1,29 @@
+= My ZSH
+// URI's
+:uri-zinit: https://github.com/psprint/zinit.git
+
+The configurations are for my macOS workstation and therefore contain some macOS-specific code and commands.
+
+== Quick Start
+
+[source,bash]
+----
+git clone git@github.com:tracphil/my-zsh.git ~/.my-zsh
+zsh ~/.my-zsh/bootstrap.sh
+----
+
+Open a new terminal and plugins will automatically start installing.
+
+In case you want to have private setting excluded from public Git repos, just create a file `.private.zsh` in the home directory.
+
+== Plugin Management
+
+I use {uri-zinit}[zinit] with Turbo Mode to accelerate the loading and checking of ZSH plugins. Thus, `zinit` will be install be installed via the `bootstrap.sh` script above.
+
+== Credits
+
+Forked * refactored from work done here: https://htr3n.github.io/2018/07/faster-zsh/
+
+== License
+
+<3 MIT License.
