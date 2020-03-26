@@ -53,6 +53,7 @@ zinit snippet OMZ::plugins/vscode/vscode.plugin.zsh
 zinit snippet OMZ::plugins/ansible/ansible.plugin.zsh
 zinit snippet OMZ::plugins/nvm/nvm.plugin.zsh
 zinit snippet OMZ::plugins/vagrant/vagrant.plugin.zsh
+zinit snippet OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh
 
 
 # NOTE: AWS completion is already in place with pyenv installation
