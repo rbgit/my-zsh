@@ -52,6 +52,7 @@ zinit snippet OMZ::plugins/terraform/terraform.plugin.zsh
 zinit snippet OMZ::plugins/vscode/vscode.plugin.zsh
 zinit snippet OMZ::plugins/ansible/ansible.plugin.zsh
 zinit snippet OMZ::plugins/nvm/nvm.plugin.zsh
+zinit snippet OMZ::plugins/vagrant/vagrant.plugin.zsh
 
 
 # NOTE: AWS completion is already in place with pyenv installation
