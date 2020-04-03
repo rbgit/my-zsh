@@ -9,7 +9,7 @@ function zsh_bootstrap(){
     # need zinit
     echo "Cloning zinit"
     mkdir -p ~/.zinit
-    git clone https://github.com/psprint/zinit.git ~/.zinit/bin
+    git clone git@github.com:zdharma/zinit.git ~/.zinit/bin
 
     echo "Link resource files to ${HOME}"
     ln -sf ${ZSHCONFIG}/zlogin ${HOME}/.zlogin
