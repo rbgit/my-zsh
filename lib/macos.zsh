@@ -80,10 +80,9 @@ export PATH=$PATH:/opt/X11/bin
 # /etc/paths.d/MacGPG2
 export PATH=$PATH:/usr/local/MacGPG2/bin
 
-#
 # GNU Core Utils
 # brew info coreutils
-export PATH=/usr/local/opt/coreutils/libexec/gnubin:$PATH
+export PATH=/usr/local/opt/coreutils/libexec/gnubin:$HOME/usr/local/opt/coreutils/libexec/gnubin:$PATH
 
 # scutil
 #

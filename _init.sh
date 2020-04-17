@@ -9,6 +9,9 @@ if [[ "x$SYSTEM" = "xDarwin"  ]]; then
     export PATH=/usr/local/sbin:/usr/local/bin:$PATH
 fi
 
+# Non-default homebrew install
+export PATH=$PATH:$HOME/usr/local/bin
+
 #-----------------------------------------------------
 # ensure to only execute on ZSH
 # https://stackoverflow.com/a/9911082/339302
