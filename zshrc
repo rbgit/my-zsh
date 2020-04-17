@@ -44,6 +44,8 @@ esac
 # https://direnv.net/
 # see zinit.zsh
 # https://github.com/zdharma/zplugin/wiki/Direnv-explanation
+# Set path for non-default homebrew install
+export PATH=$PATH:$HOME/usr/local/bin
 eval "$(direnv hook zsh)"
 
 
