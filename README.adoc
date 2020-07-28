@@ -14,6 +14,13 @@ zsh ~/.my-zsh/bootstrap.sh
 
 If your default shell is not `zsh`, make it zsh and open a new terminal and plugins will automatically start installing.
 
+Fix the permissions.
+
+[Source,bash]
+----
+compaudit | xargs chmod g-w
+----
+
 In case you want to have private setting excluded from public Git repos, just create a file `.private.zsh` in the home directory.
 
 == Plugin Management
