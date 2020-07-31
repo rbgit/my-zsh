@@ -12,9 +12,15 @@ git clone git@github.com:tracphil/my-zsh.git ~/.my-zsh
 zsh ~/.my-zsh/bootstrap.sh
 ----
 
-If your default shell is not `zsh`, make it zsh and open a new terminal and plugins will automatically start installing.
+If your default shell is not `zsh`, make it zsh and open a new terminal and plugins will automatically start installing. When opening the new terminal you will most likely be presented with the following:
 
-Fix the permissions.
+[Source,bash]
+----
+zsh compinit: insecure directories, run compaudit for list.
+Ignore insecure directories and continue [y] or abort compinit [n]? y
+----
+
+After the plugins are fininished installing, fix the permissions.
 
 [Source,bash]
 ----
